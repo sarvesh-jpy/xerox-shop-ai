@@ -21,7 +21,7 @@ function App() {
 
     try {
       // 2. Send to Python Backend
-      const response = await axios.post("https://xerox-backend-wr9e.onrender.com", {
+      const response = await axios.post("https://xerox-backend-wr9e.onrender.com/chat", {
         message: currentInput
       });
 
